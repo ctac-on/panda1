@@ -1,0 +1,17 @@
+$c: ".tableSection";
+
+#{$c} {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  &__nav {
+    justify-content: center;
+  }
+  &__pageLink {
+    cursor: pointer;
+  }
+  &__th {
+    cursor: pointer;
+    padding-right: 3px;
+  }
+}
